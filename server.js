@@ -3,6 +3,7 @@
 const express = require("express");
 
 const app = express();
+
 //bring in middleware
 require("./middleware")(app);
 //bring in database
