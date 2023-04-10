@@ -5,14 +5,14 @@ module.exports = function (app) {
 
   app.use(express.json()); //parses the json
 
-  const dogs = [];
+  // const dogs = [];
 
-  app.get("/api/v1/dogs", (req, res) => {
-    res.status(200).json(dogs);
-  });
-  
-  app.post("/api/v1/dogs", (req, res) => {
-    dogs.push(req.body);
-    res.sendStatus(201);
-  });
+  // app.get("/api/v1/dogs", (req, res) => {
+  //   res.status(200).json(dogs);
+  // });
+
+  // app.post("/api/v1/dogs", (req, res) => {
+  //   dogs.push(req.body);
+  //   res.sendStatus(201);
+  // });
 };
