@@ -12,6 +12,10 @@ const DogSchema = new Schema({
     type: String,
     required: true
   },
+  playfulness: {
+    type: Number,
+    required: true
+  }
 });
 
 //creates a model that will take in the client and do CRUD operations
