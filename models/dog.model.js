@@ -1,6 +1,6 @@
 // here is where the schema will go
 
-const mongoose = require("mongoose"); //load in Mongoose
+const mongoose = require("mongoose"); 
 const { Schema } = mongoose;
 
 const DogSchema = new Schema({
